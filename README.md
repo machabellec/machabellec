@@ -8,7 +8,7 @@
 
 ---
 
-I recently moved from Paris to the [sunny mountains of Valais](/![images/25a6ea3d-038f-4f36-b60f-1cf2516536ce.JPG]) and been enjoying nature, hiking and skying :snowboarder: apart from my work at WIPO and my studies at Geneva!
+I recently moved from Paris to the sunny mountains of Valais ![HTML logo](images/25a6ea3d-038f-4f36-b60f-1cf2516536ce.JPG)  and been enjoying nature, hiking and skying :snowboarder: apart from my work at WIPO and my studies at Geneva!
 
 Please visit my **[website](https://machabellec.github.io)** or my **[Linkedin](https://www.linkedin.com/in/macha-bellec/)** for more information!
 
