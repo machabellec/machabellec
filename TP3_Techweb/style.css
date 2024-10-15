@@ -12,7 +12,14 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-
+.col {
+    width: 40%;
+    margin-bottom: 20px; 
+    padding: 20px;
+    background-color: rgb(124, 61, 3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 /* Style pour les petits formats */
 @media (max-width: 768px) {
     .row {
