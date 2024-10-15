@@ -21,7 +21,7 @@ RdknLPMO" crossorigin="anonymous">
         la mention col-sm signifie que au dessus du breakpoint sm (=affichage plus petit, small devices), 
         les divs sont affichées côte à côte et en dessous s'afficheront l'un en dessous de l'autre-->
             <div class="col-sm-3">
-                <div class="card mt-2"><!--3. Ajout d'une card avec une Image cap-->
+                <div class="card mt-2"><!--3. Ajout d'une card avec une Image cap dans le deuxième conteneur-->
                     <img class="card-img-top" src="../images/citrouille.jpg" alt="Ceci est une citrouille">
                     <div class="card-body">
                         <h5 class="card-title">Pumpkin</h5>
@@ -29,7 +29,30 @@ RdknLPMO" crossorigin="anonymous">
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">Kürbis</div>
+            <div class="col-sm-2">
+                Kürbis
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">Pumpkin</text></svg>
+                      </div>
+                      <div class="carousel-item">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Citrouille</text></svg>
+                      </div>
+                      <div class="carousel-item active">
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Banane</text></svg>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
             <div class="col-sm-4">κολοκύθι</div>
         </div>
     </div>
