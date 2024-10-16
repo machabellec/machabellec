@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TP3_Techweb</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3
+/css/bootstrap.min.css" integrity="sha384-
+MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8E
+RdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-
+icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0 bd-example-row">
+
+    <div class="text-primary">Parlons citrouille</div> <!--5. Ajout d'une classe contextuelle-->
+    <i class="bi bi-sun"></i> <!--6. Ajout d'une icone-->
+    <figure> <!--7.Ajout d'une citation avec source-->
+        <blockquote class="blockquote">
+            <p>Il y a des jours où les citrouilles ne sont que des citrouilles.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Il était une fois une citrouille</cite>
+        </figcaption>
+    </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">citrouille</div> <!--2.a la classe choisie est col, avec une colonne de largeur 2/12, 
+        la mention col-sm signifie que au dessus du breakpoint sm (=affichage plus petit, small devices), 
+        les divs sont affichées côte à côte et en dessous s'afficheront l'un en dessous de l'autre-->
+            <div class="col-sm-3">
+                <div class="card mt-2"><!--3. Ajout d'une card avec une Image cap dans le deuxième conteneur-->
+                    <img class="card-img-top" src="images/citrouille.jpg" alt="Ceci est une citrouille">
+                    <div class="card-body">
+                        <h5 class="card-title">Pumpkin</h5>
+                        <p class="card-text">Ceci n'est pas une citrouille</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                Kürbis
+                <div id="carouselExample" class="carousel slide ms-md-5">
+                    <!--4.Ajout d'un carousel dans l'un des conteneurs-->
+                    <!--8. 
+                    Le fait d'ajouter la classe ms-md-5 a un effet sur l'espacement "spacing", m définit la marge, s définit la marge gauche et md s'applique aux formats intermédiaires (medium devices)-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="images/tas de citrouilles.jpg" width="800" height="400"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
+                                dy=".3em">Pumpkin</text></svg>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/deuxieme tas de citrouilles.jpg" width="800" height="400"
+                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
+                                dy=".3em">Citrouille</text></svg>
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="images/halloween.jpg" width="800" height="400" xmlns="http://www.w3.org/2000/svg"
+                                role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice"
+                                focusable="false">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
+                                dy=".3em">Banane</text></svg>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-4">κολοκύθι</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
